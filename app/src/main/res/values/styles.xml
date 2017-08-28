@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MaterialTheme" parent="MaterialTheme.Base"></style>
+
+        <style name="MaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:windowBackground">@color/windowBackground</item>
+
+            <item name="colorControlNormal">@color/colorAccentInput</item>
+            <item name="colorControlActivated">@color/colorAccentInput</item>
+            <item name="colorControlHighlight">@color/colorButtonDown</item>
+            <item name="android:textColorHint">@color/iron</item>
+            <item name="android:textColorPrimary">#424242</item>
+            <item name="colorButtonNormal">@color/colorButtonUp</item>
+
+        </style>
+
+        <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/white</item>
+
+            <!--<item name="android:windowBackground">@mipmap/ic_launcher</item>-->
+
+            <item name="colorControlNormal">@color/white</item>
+            <item name="colorControlActivated">@color/white</item>
+            <item name="colorControlHighlight">@color/colorButtonDown</item>
+            <item name="android:textColorHint">@color/white</item>
+
+            <item name="colorButtonNormal">@color/colorButtonUp</item>
+
+        </style>
+
+        <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+            <item name="colorAccent">@color/white</item>
+            <item name="android:textColorPrimary">@color/iron</item>
+            <item name="android:background">@color/colorPrimary</item>
+        </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gficat Android</string>
+
+
+    <!--<string name="app_name">Gficat Android</string>-->
+
+    <!-- activity login -->
+
+    <string name="input_user">Usuario</string>
+    <string name="input_password">Contraseña</string>
+
+    <!--  Buttons -->
+
+    <string name="button_login">Ingresar</string>
+    <string name="button_request_pay">Generar Solicitud</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="button_save_config">Guardar configuración</string>
+</resources>
